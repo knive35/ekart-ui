@@ -1,0 +1,7 @@
+<div class="login-page" [ngStyle]="{'background-color':'#000000'}">
+    <mbsc-form [options]="formSettings">
+        <mbsc-input name="username">Username</mbsc-input>
+        <mbsc-input name="password" type="password">Password</mbsc-input>
+        <mbsc-button type="submit" (click)="login()">Sign In</mbsc-button>
+    </mbsc-form>
+</div>
