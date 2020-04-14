@@ -1,0 +1,22 @@
+.cart{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.profile{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}

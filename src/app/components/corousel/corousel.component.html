@@ -1,1 +1,7 @@
-<p>corousel works!</p>
+<div class="carousel-content">
+    <owl-carousel-o [options]="customOptions" [ngStyle]="{'height':'400px'}">
+        <ng-template carouselSlide *ngFor= "let item of items">
+            <img src="{{ item.name }}">
+        </ng-template>  
+    </owl-carousel-o>
+</div>
