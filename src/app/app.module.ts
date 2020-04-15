@@ -17,6 +17,9 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CartPageComponent } from './pages/cart-page/cart-page.component';
 import { ProfilePageComponent } from './pages/profile-page/profile-page.component';
+import { CardComponent } from './components/card/card.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { AboutPageComponent } from './pages/about-page/about-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +27,10 @@ import { ProfilePageComponent } from './pages/profile-page/profile-page.componen
     HomePageComponent,
     LoginPageComponent,
     CartPageComponent,
-    ProfilePageComponent
+    ProfilePageComponent,
+    CardComponent,
+    FooterComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,
