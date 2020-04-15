@@ -17,7 +17,7 @@ export class LoginPageComponent implements OnInit {
   }
   
   login(){
-    this.router.navigate(['corousel'])
+    this.router.navigate([''])
   }
 
 }
