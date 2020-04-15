@@ -13,8 +13,8 @@
 </head>
 
 <body>
-  <span *ngIf="router.url!=='/login'">
-    <nav class="navbar navbar-inverse">
+  <span >
+    <nav *ngIf="router.url!=='/login'" class="navbar navbar-inverse">
       <div class="container text-centre">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -38,9 +38,7 @@
     </nav>
     <router-outlet></router-outlet>
   </span>
-  <span *ngIf="router.url==='/login'">
-    <router-outlet></router-outlet>
-  </span>
+ 
 </body>
 
 </html>
