@@ -11,7 +11,7 @@ export class LoginPageComponent implements OnInit {
     theme: 'mobiscroll'
 };
 
-  constructor(private router:Router) { }
+  constructor(public router:Router) { }
 
   ngOnInit(): void {
   }

@@ -4,12 +4,13 @@ import { CorouselComponent } from './components/corousel/corousel.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { ProfilePageComponent } from './pages/profile-page/profile-page.component';
 import { CartPageComponent } from './pages/cart-page/cart-page.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
 
 
 const routes: Routes = [
   {
-    component:CorouselComponent,
-    path:'corousel',
+    component:HomePageComponent,
+    path:'',
     canActivate:[]
   },
   {
