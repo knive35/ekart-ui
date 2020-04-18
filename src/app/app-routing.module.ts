@@ -6,6 +6,7 @@ import { ProfilePageComponent } from './pages/profile-page/profile-page.componen
 import { CartPageComponent } from './pages/cart-page/cart-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
+import { ProductPageComponent } from './pages/product-page/product-page.component';
 
 
 const routes: Routes = [
@@ -32,6 +33,11 @@ const routes: Routes = [
   {
     component:AboutPageComponent,
     path:'about',
+    canActivate:[]
+  },
+  {
+    component:ProductPageComponent,
+    path:'product',
     canActivate:[]
   }
 ];

@@ -20,6 +20,7 @@ import { ProfilePageComponent } from './pages/profile-page/profile-page.componen
 import { CardComponent } from './components/card/card.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
+import { ProductPageComponent } from './pages/product-page/product-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +31,8 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
     ProfilePageComponent,
     CardComponent,
     FooterComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    ProductPageComponent
   ],
   imports: [
     BrowserModule,

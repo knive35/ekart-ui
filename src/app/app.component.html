@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.cycle.js"></script>
+
   <script src="https://kit.fontawesome.com/a81368914c.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -18,16 +20,8 @@
     <nav *ngIf="router.url!=='/login'" class="navbar navbar-inverse">
       <div class="container text-centre">
         <div class="container-fluid">
-          <div class="navbar-header">
-            <div class="bdy">
-              <a class="navbar-brand" href="#" >
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  EKart
-              </a>
-           </div>
+          <div class="logo">
+            <img (click)="redirectToHome()" src="../assets/images/logo.png">
           </div>
           <form class="navbar-form navbar-left" action="/action_page.php">
             <div class="form-group" [ngStyle]="{'width': '400px'}">
@@ -38,9 +32,9 @@
           </form>
           <div>
             <button class="cart" (click)="navigateToCart()"><i class="fa fa-cart-arrow-down" aria-hidden="true"
-                style="color: white; background-color:'#333';font-size: 25px;"></i></button>
+                style="color: white; background-color:'#333';font-size: 25px;"></i>cart</button>
             <button class="profile" (click)="navigateToProfile()"><i class="fa fa-user-circle" aria-hidden="true"
-                style="color: white; background-color:'#333';font-size: 25px;"></i></button>
+                style="color: white; background-color:'#333';font-size: 25px;"></i>user</button>
           </div>
         </div>
       </div>

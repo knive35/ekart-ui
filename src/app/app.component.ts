@@ -15,4 +15,7 @@ export class AppComponent {
   navigateToProfile(){
     this.router.navigate(['profile']);
   }
+  redirectToHome(){
+    this.router.navigate(['']);
+  }
 }
