@@ -21,6 +21,7 @@ import { CardComponent } from './components/card/card.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { ProductPageComponent } from './pages/product-page/product-page.component';
+import {HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,7 +43,8 @@ import { ProductPageComponent } from './pages/product-page/product-page.componen
     CarouselModule,
     FormsModule,
     MbscModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

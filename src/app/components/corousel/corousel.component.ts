@@ -9,6 +9,8 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class CorouselComponent implements OnInit {
   customOptions: OwlOptions = {
+    autoplay:true,
+    autoplayTimeout:3000,
     loop: true,
     mouseDrag: true,
     touchDrag: true,
