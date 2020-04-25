@@ -16,7 +16,7 @@ export class CardComponent implements OnInit {
   constructor(public router:Router, public service:ApiService ) { }
 
   ngOnInit(): void {
-    this.products=["a","b","c","d","e","f","g","h"];
+    this.products=["a","b","c","d","e","f","g","h","i","j","k","l"];
   }
   
   

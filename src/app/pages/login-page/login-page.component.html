@@ -1,4 +1,4 @@
-
+<!-- 
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -24,8 +24,43 @@
         <span></span>
         Sign In
     </a>
-</div>
-  
-</div>
+</div> -->
+<html>
+  <head>
+    <title>Login And Registration</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="form-box">
+        <div class="button-box">
+          <div id="btn"></div>
+           <button type="button" class="toggle-btn" (click)="login()">Log In</button>
+           <button type="button" class="toggle-btn" (click)="register()">Register</button>
+        </div>
+        <div class="social-icons">
+          <img src="./../../../assets/images/fb.png">
+          <img src="./../../../assets/images/tw.png">
+          <img src="./../../../assets/images/gp.png">
+        </div> 
+        <form id="login" class="input-group">
+          <input type="text" class="input-field" placeholder="User Id" required>
+          <input type="text" class="input-field" placeholder="Password" required>
+          <input type="checkbox" class="check-box"><span>Rememeber Password</span>
+          <button type="submit" class="submit-btn">Log In</button>
+        </form>
+        <form id="register" class="input-group">
+          <input type="text" class="input-field" placeholder="User Id" required>
+          <input type="email" class="input-field" placeholder="Email Id" required>
+          <input type="text" class="input-field" placeholder="Enter Password" required>
+          <input type="checkbox" class="check-box"><span>I agree to the terms & consitions</span>
+          <button type="submit" class="submit-btn">Register</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
+
+<!--   
+</div>
+  </body>
+</html> -->
