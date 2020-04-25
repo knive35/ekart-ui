@@ -35,5 +35,8 @@ export class LoginPageComponent implements OnInit {
     y.style.left="450px";
     z.style.left="0";
   }
+  loginUser(){
+    this.router.navigate(['']);
+  }
 
 }
